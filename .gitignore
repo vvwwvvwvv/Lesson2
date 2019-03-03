@@ -1,5 +1,5 @@
 *.pyc
-/*.idea/
-/venv/
-/env/
-/.DS_Store/
+*.idea/
+venv/
+env/
+.DS_Store/
