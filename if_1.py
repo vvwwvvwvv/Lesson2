@@ -2,15 +2,15 @@
 
 #функция определяющая чем должен заниматься пользователь, если его возраст = х
 def age_dep(age):
-    if 0 < age < 7:
+    if age in range(0, 7):
         result = 'Обучается в детском саду'
-    elif 7 <= age <= 18:
+    elif age in range(8, 17):
         result = 'Обучается в школе'
-    elif 18 <= age <= 23:
+    elif age in range(18, 24):
         result = 'Обучается в ВУЗ'
-    elif 23 <= age <= 65:
+    elif age in range(23, 65):
        result = 'Работает'
-    elif 65 <= age <= 120:
+    elif age in range(66, 120):
         result = 'На пенсии'
     elif age > 120:
         result = 'Потыкай в него палкой, мне кажется, что он мертв'
